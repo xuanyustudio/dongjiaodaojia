@@ -1,0 +1,13 @@
+﻿怎么启动、怎么改代码，看 dev\docs。仓库根目录的 README.md 有总览。
+
+新项目都在 D:\work\dongjiaodaojia\dev
+
+  server   新 Go 后端（原来的 backend-go）
+  admin    新管理后台（原来的 backend\ui-next）
+  user     用户端（原来的 frontweb\享享到家-用户端最新版）
+  tech     技师端（原来的 frontweb\享享到家-技师端）
+
+一键启动：D:\work\dongjiaodaojia\一键启动新后端.bat
+停止：    D:\work\dongjiaodaojia\停止新后端.bat
+
+旧 PHP 代码和上传图片仍在 D:\work\dongjiaodaojia\backend

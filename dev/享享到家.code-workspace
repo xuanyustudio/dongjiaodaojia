@@ -1,0 +1,8 @@
+{
+  "folders": [
+    { "name": "server", "path": "server" },
+    { "name": "admin", "path": "admin" },
+    { "name": "user", "path": "user" },
+    { "name": "tech", "path": "tech" }
+  ]
+}

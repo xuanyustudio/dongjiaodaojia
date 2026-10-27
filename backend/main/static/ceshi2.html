@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>服务协议</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<span id="btn"></span>
+</body>
+</html>
+<script>
+    var url = "https://am.appldkj.com/public/index.php/api/user/config";
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.open('POST', url, true);
+    httpRequest.setRequestHeader("Content-type", "application/json");
+    var obj = {
+        "field": "privacy",
+    };
+
+    httpRequest.send(JSON.stringify(obj));
+
+    // 响应后的回调函数
+    httpRequest.onreadystatechange = function () {
+        if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+            var json = JSON.parse(httpRequest.responseText);
+            console.log(json.data);
+            $("#btn").append(json.data);
+        }
+    };
+</script>
+<style>
+
+</style>

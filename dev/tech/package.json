@@ -1,0 +1,19 @@
+{
+  "name": "on-site-service-technician",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/hunanhuirongzhixin/on-site-service-technician.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuex": "^4.0.2"
+  }
+}

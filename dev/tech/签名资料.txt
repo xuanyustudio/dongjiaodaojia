@@ -1,0 +1,13 @@
+证书生成指令：keytool -genkey -alias xxdjjsd -keyalg RSA -keysize 2048 -validity 36500 -keystore xxdjjsd.keystore
+
+证书密钥口令：xxdjjsd123456
+
+查看密钥：keytool -list -v -keystore E:\Project\享享到家\享享到家-技师端\xxdjjsd.keystore  
+
+
+MD5: C3:73:BE:4B:0C:C8:C8:83:49:0F:A7:51:BA:CC:5B:15
+         SHA1: FC:1F:F3:2A:A5:53:8F:AA:6F:46:04:70:F4:E3:46:C3:71:02:1C:69
+         SHA256: B7:99:53:EF:5F:FE:AD:52:07:38:44:98:6C:02:EF:B7:7B:94:3F:88:C4:8B:5E:33:1C:3D:93:65:26:03:F2:AA
+         签名算法名称: SHA256withRSA
+         版本: 3
+

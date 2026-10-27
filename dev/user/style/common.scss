@@ -1,0 +1,142 @@
+@import '@/style/mixin.scss';
+view,
+page,
+text,
+button,
+image,
+textarea,
+scroll-view,input {
+	box-sizing: border-box;
+}
+image {
+	display: block;
+}
+button {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFF;
+}
+button::after {
+	border: none;
+}
+// 主题背景色
+.themeBgColor {
+	background-color: $themeColor;
+}
+// 主题字体色
+.themeFontColor {
+	color: $themeColor !important;
+}
+
+
+//字体白色
+.font-cw{
+	color: #FFFFFF;
+}
+
+//justify-bw
+
+.justify-bw{
+	justify-content: space-between;
+}
+.justify-sa{
+	justify-content:space-around;
+}
+.content-p{
+	padding: 0 30rpx;
+}
+.content_col10{
+	padding: 0 10rpx;
+}
+.mr5 {
+    margin-right: 5rpx;
+}
+
+.mt30 {
+    margin-top: 30rpx;
+}
+.mt20 {
+    margin-top: 20rpx;
+}
+
+.mt10 {
+    margin-top: 10rpx;
+}
+
+.text-t1{
+	
+	color: $u-info;
+}
+
+.fw800{
+	font-weight: 800;
+}
+.center{
+	margin: 0 auto;
+}
+
+.price-font{
+font-family: Price-Bold;
+}
+
+.price-font1{
+font-family: Price;
+}
+.text_c{
+	text-align: center
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .justify-start {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .justify-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .justify-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .justify-evenly {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .justify-around {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .justify-between {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .items-start {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .items-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .items-end {
+    display: flex;
+    align-items: flex-end;
+  }
