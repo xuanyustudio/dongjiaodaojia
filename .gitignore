@@ -7,10 +7,13 @@
 dev/server/bin/
 **/*.exe
 
-# 运行日志、缓存、HBuilder 本地配置
+# 运行日志、缓存、编辑器本地配置
 **/runtime/
 **/*.log
 **/.hbuilderx/
+**/.vs/
+**/.vscode/
+**/.idea/
 
 # 系统文件
 .DS_Store
