@@ -2,9 +2,11 @@
 
 上门按摩、推拿、采耳、芳疗的预约系统，和东郊到家是同一类业务：用户选项目、选技师、下单，技师上门服务。
 
+两边都是三方用户。客户下单，服务的人接单，后台负责审核、分成和结算。同一套结构也能拿去改代驾、安师傅代驾、婚车租赁、上门维修、家政保洁、跑腿这些生意。
+
 一套 Go 接口同时给三个前端用：Vue 3 管理后台，以及 uni-app 写的用户端、技师端。数据在 MySQL。
 
-Home massage and tuina booking, the same kind of on-demand service as 东郊到家. One Go API, a Vue 3 admin, and two uni-app clients.
+Three-sided booking: customer, provider, and admin. Same shape as home massage, 东郊到家, designated driving (安师傅代驾), wedding-car rental, and door-to-door repair.
 
 ## 流程
 
