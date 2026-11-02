@@ -39,7 +39,7 @@ func Load() Config {
 		DBPass:         env("DJ_DB_PASS", "root"),
 		DBName:         env("DJ_DB_NAME", "smam_sql"),
 		DBPrefix:       env("DJ_DB_PREFIX", "cd_"),
-		UploadRoot:     env("DJ_UPLOAD_ROOT", "../../backend/public/uploads"),
+		UploadRoot:     env("DJ_UPLOAD_ROOT", "../uploads"),
 		PublicDomain:   env("DJ_PUBLIC_DOMAIN", ""),
 		PasswordSecret: env("DJ_PASSWORD_SECRET", "vueadmin"),
 		JWTSecret:      env("DJ_JWT_SECRET", "QoCCfOVKwqTNKArT"),

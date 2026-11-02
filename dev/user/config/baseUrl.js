@@ -1,18 +1,5 @@
-// let baseUrl = "http://moushilang.hdhzyl.cn/";
-// let baseUrl = "http://am.etcservicecenter.com/"
-// 本地联调新 Go 后端。改回线上时注释下一行，并取消再下一行的注释。
 let baseUrl = "http://127.0.0.1:8088/public/index.php/"
-// let baseUrl = "https://xxdj.tushengwenlv.com/public/index.php/"
 let socketUrl = "";
-// if (process.env.NODE_ENV === 'development') {
-	
-// 	baseUrl = 'http://massage.weixiaoba.vip/'
-
-// } else if (process.env.NODE_ENV === 'production') {
-	
-// 	baseUrl = 'http://massage.weixiaoba.vip/'
-	
-// }
 const courtConfig = {
 	changeOrigin:true,
 	//微信公众号APPID

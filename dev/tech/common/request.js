@@ -1,13 +1,6 @@
 import store from "../store/index.js"; //vuex  
-// let server_url='http://massage.weixiaoba.vip/technician';//请求地址
-// let server_url='http://moushilang.hdhzyl.cn/technician';//请求地址
-// let server_url='https://www.baidu.shop/technician';//请求地址
-// 本地联调新 Go 后端。改回线上时把 http 改回 https://，server_url 改回线上域名。
 let http = 'http://';
 let server_url = '127.0.0.1:8088/public/index.php/technician'; //请求地址
-// let http = 'https://';
-// let server_url = 'xxdj.tushengwenlv.com/public/index.php/technician';
-// http://admin.gegedaojia.com/#/admin/Home/index.html
 let token = '';
 process.env.NODE_ENV === 'development' ? '192.168.0.1' : '';
 

@@ -2,9 +2,8 @@
 chcp 65001 >nul
 setlocal EnableExtensions
 set "ROOT=D:\work\dongjiaodaojia\dev"
-set "UPLOAD=D:\work\dongjiaodaojia\backend\public\uploads"
+set "UPLOAD=D:\work\dongjiaodaojia\dev\uploads"
 set "CLI=D:\Program Files\HBuilderX\cli.exe"
-set "NGINX=D:\phpenv\server\nginx\nginx.exe"
 set "MYSQLD=D:\phpenv\server\mysql\mysql-5.7\bin\mysqld.exe"
 
 echo ========================================
@@ -16,7 +15,7 @@ echo [1/5] MySQL
 netstat -ano | findstr ":3306" | findstr "LISTENING" >nul
 if errorlevel 1 (
   if not exist "%MYSQLD%" (
-    echo 找不到 MySQL。请先打开 phpEnv 启动 MySQL。
+    echo 找不到 MySQL。请先启动本机的 MySQL 5.7。
     pause
     exit /b 1
   )
@@ -24,7 +23,7 @@ if errorlevel 1 (
   start "mysql57" /MIN "%MYSQLD%" --defaults-file=D:\phpenv\server\mysql\mysql-5.7\my.ini --basedir=D:\phpenv\server\mysql\mysql-5.7 --datadir=D:\phpenv\server\mysql\mysql-5.7\data
   call :wait_port 3306 25
   if errorlevel 1 (
-    echo MySQL 没有在 25 秒内起来。请打开 phpEnv 检查。
+    echo MySQL 没有在 25 秒内起来。请检查 MySQL 5.7。
     pause
     exit /b 1
   )
@@ -34,10 +33,6 @@ if errorlevel 1 (
 
 echo.
 echo [2/5] 把 8088 让给 Go 后端
-if exist "%NGINX%" (
-  echo 停止旧 PHP 站点的 Nginx ...
-  "%NGINX%" -p D:/work/dongjiaodaojia/backend/runtime/nginx -c conf/nginx.conf -s quit >nul 2>&1
-)
 call :kill_dev_processes
 timeout /t 1 /nobreak >nul
 netstat -ano | findstr ":8088" | findstr "LISTENING" >nul
@@ -127,7 +122,6 @@ echo  三个端都请求 http://127.0.0.1:8088
 echo  管理后台  http://127.0.0.1:5173/#/admin/login
 echo  用户端、技师端由 HBuilderX 打开
 echo  停止请运行「停止新后端.bat」
-echo  旧 PHP 站点请运行「启动本地服务.bat」
 echo ========================================
 pause
 exit /b 0

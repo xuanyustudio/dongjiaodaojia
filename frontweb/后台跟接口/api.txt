@@ -1,6 +1,0 @@
-{
-"showYaoQing":true,
-"showVip":true,
-"showJsInfo":true,
-"showBj":true
-}

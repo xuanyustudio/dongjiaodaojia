@@ -1,2 +1,0 @@
-extend/sms/sms2  --短信配置
-config/my.php  --阿里云OSS配置和其他配置

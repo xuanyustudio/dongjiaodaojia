@@ -58,9 +58,6 @@
 				//http://localhost:8080/#/pages/index/yq
 				const origin = typeof window !== 'undefined' ? window.location.origin + window.location.pathname : ''
 				this.url = origin + "#/pages/index/yq?pid=" + this.pid
-				// "https://app.sclhyg.com/#/user/share/share?pid="+this.pid
-				// https://app.sclhyg.com/h5/#/pages/user/share/share?pid=71
-				//http://app.qdmmdj.com/#/public/index.php/user/share/s.html
 			})
 			this.version = plus.runtime.version;
 			uni.getProvider({

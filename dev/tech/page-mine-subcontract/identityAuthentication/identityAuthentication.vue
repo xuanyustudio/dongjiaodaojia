@@ -138,7 +138,6 @@
 			//上传图片
 			uploadImg(e,is) {
 				let _this = this
-				//http://am1.appldkj.com/public/index.php/technician/
 				uni.uploadFile({
 					url: _this.$cfg['httpUrl']+'index/uploadImage',
 					filePath: e,
