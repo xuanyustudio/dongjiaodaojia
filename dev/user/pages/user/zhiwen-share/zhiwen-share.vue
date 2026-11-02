@@ -4,7 +4,7 @@
 	<view class="banner">
 		<dl>
 			<dt><image src="@/static/logo/wx.png" mode=""></image></dt>
-			<dd>享享到家</dd>
+			<dd>预约到家</dd>
 		</dl>
 		<view class="img">
 			<!-- <image src="../../../static/img/ewm.jpg" mode=""></image> -->
@@ -146,8 +146,8 @@
 			share(e) {
 				let shareData = {
 					shareUrl: this.url,
-					shareTitle: "享享到家",
-					shareContent: "享享到家，是一家以采耳、推拿为主项，个人定制型的o2o平台，本平台提供专业、正规、安全、便捷的上门服务",
+					shareTitle: "预约到家",
+					shareContent: "预约到家，是一家以采耳、推拿为主项，个人定制型的o2o平台，本平台提供专业、正规、安全、便捷的上门服务",
 					shareImg: "https://yiyanyuese.oss-cn-beijing.aliyuncs.com/images/H5/WechatIMG595.png",
 					appId: "wxd0e0881530ee4444", // 默认不传type的时候，必须传appId和appPath才会显示小程序图标
 					appPath: "pages/home/home",

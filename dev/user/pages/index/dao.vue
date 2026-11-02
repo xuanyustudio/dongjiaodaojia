@@ -8,14 +8,14 @@
 				<view class="left">
 					<view class="boxer">
 						<image style="width: 100%;height: 180rpx;" src="../../static/demo/2.jpg"></image>
-						<view style="font-size: 25rpx;font-weight: 600;">享享到家美容院</view>
+						<view style="font-size: 25rpx;font-weight: 600;">预约到家美容院</view>
 						<view style="font-size: 15rpx; color: #999999 ;">青岛市南区山东路6号</view>
 					</view>
 				</view>
 				<view class="left">
 					<view class="boxer">
 						<image style="width: 100%;height: 180rpx;" src="../../static/demo/2.jpg"></image>
-						<view style="font-size: 25rpx;font-weight: 600;">享享到家美容院</view>
+						<view style="font-size: 25rpx;font-weight: 600;">预约到家美容院</view>
 						<view style="font-size: 15rpx; color: #999999 ;">青岛市南区山东路6号</view>
 					</view>
 				</view>

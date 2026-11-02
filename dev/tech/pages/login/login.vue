@@ -7,7 +7,7 @@
 		<!-- #ifndef MP-WEIXIN -->
 		<view class="title">
 			<view class="title-h">
-				享享到家
+				预约到家
 			</view>
 			<view class="title-h3">
 				未注册过的手机将自动创建账号
@@ -58,7 +58,7 @@
 			<view class="title f-s18" style="margin-top:60rpx;">
 				<image src="https://ssdqf.oss-cn-shanghai.aliyuncs.com/admin/202204/202204121451290192104.png" mode=""
 					class="img border-radius-8" style="width:200rpx;height:200rpx;"></image>
-				<view class="title-h p-t15" style="text-align: center;">享享到家</view>
+				<view class="title-h p-t15" style="text-align: center;">预约到家</view>
 			</view>
 			<view style="padding-top:100rpx">
 				<button type="primary" @click="getUserInfo" class="regiter-bottom h50 f-s16 border-radius-100"

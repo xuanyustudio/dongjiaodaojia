@@ -5,7 +5,7 @@
 			<view class="c">
 				<view class="d">e客</view>
 				<view class="e">
-					<view style="align-items: center;display:flex;20rpx auto; 90%;height: 90%; font-size:20rpx;width: 90%;">您好，我是享享到家的客服e客，请问有什 么可以帮您？</view>
+					<view style="align-items: center;display:flex;20rpx auto; 90%;height: 90%; font-size:20rpx;width: 90%;">您好，我是预约到家的客服e客，请问有什 么可以帮您？</view>
 				</view>
 			</view>
 		</view>

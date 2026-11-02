@@ -5,7 +5,7 @@
 		<view class="o"></view>
 		<view class="o1"></view>
 		<view class="h1">
-			享享到家
+			预约到家
 		</view>
 		<view class="p">未注册过的手机将自动创建账号</view>
 

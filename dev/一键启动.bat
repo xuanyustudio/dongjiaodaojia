@@ -7,7 +7,7 @@ set "CLI=D:\Program Files\HBuilderX\cli.exe"
 set "MYSQLD=D:\phpenv\server\mysql\mysql-5.7\bin\mysqld.exe"
 
 echo ========================================
-echo  享享到家 · 新后端一键启动
+echo  预约到家 · 新后端一键启动
 echo ========================================
 
 echo.

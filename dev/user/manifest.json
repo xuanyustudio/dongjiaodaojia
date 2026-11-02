@@ -1,7 +1,7 @@
 {
-    "name" : "享享到家",
+    "name" : "预约到家",
     "appid" : "__UNI__1CCA0DD",
-    "description" : "享享到家",
+    "description" : "预约到家",
     "transformPx" : false,
     "icons" : [
         {
@@ -219,7 +219,7 @@
         "devServer" : {
             "https" : false
         },
-        "title" : "享享到家",
+        "title" : "预约到家",
         "sdkConfigs" : {
             "maps" : {
                 "qqmap" : {

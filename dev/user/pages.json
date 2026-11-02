@@ -589,7 +589,7 @@
             "path" : "pages/user/share/share",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "享享到家礼包",
+                "navigationBarTitleText": "预约到家礼包",
                 "enablePullDownRefresh": false,
 				"app-plus": {
 				                    //#ifdef H5
@@ -603,7 +603,7 @@
             "path" : "pages/user/share/download/download",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "享享到家APP",
+                "navigationBarTitleText": "预约到家APP",
                 "enablePullDownRefresh": false,
 				"app-plus": {
 				                    //#ifdef H5
