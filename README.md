@@ -6,6 +6,28 @@
 
 Home massage and tuina booking, the same kind of on-demand service as 东郊到家. One Go API, a Vue 3 admin, and two uni-app clients.
 
+## 流程
+
+用户从首页选服务、确认下单，订单推到技师工作台。技师接单服务，完成后进入收益钱包。用户自己的地址、优惠券和客服在「我的」。
+
+![从下单到结算](dev/docs/images/flow.png)
+
+## 界面
+
+用户端和技师端：
+
+<p>
+  <img src="dev/docs/images/home.png" width="160" alt="首页">
+  <img src="dev/docs/images/service.png" width="160" alt="服务详情">
+  <img src="dev/docs/images/mine.png" width="160" alt="我的">
+  <img src="dev/docs/images/tech.png" width="160" alt="技师工作台">
+  <img src="dev/docs/images/wallet.png" width="160" alt="收益钱包">
+</p>
+
+管理后台，服务项目、价格、时长和技师分成都在这里改：
+
+![管理后台](dev/docs/images/admin.png)
+
 ## 这套代码从哪来
 
 杭州有位老板来下单，开着跑车。他说到了上海就签合同，让我先回去开发。我回去之后把用户端、技师端、管理后台和接口做成了现在这样。合同没有签，老板也没有下文。
@@ -56,7 +78,7 @@ Home massage and tuina booking, the same kind of on-demand service as 东郊到�
 | `dev/tech` | 技师端 |
 | `dev/uploads` | 上传的图片和录音，由接口的 `/uploads/` 提供访问 |
 | `dev/smam_sql.sql` | 当前库的导出。`cd_log` 只留表结构 |
-| `dev/docs` | 启动文档、开发文档、微信二维码 `wx.jpg` |
+| `dev/docs` | 启动文档、开发文档、界面图、微信二维码 |
 
 仓库根目录的 `一键启动新后端.bat` 会拉起 MySQL（如果没开）、Go 接口、管理后台，并用 HBuilderX 打开两个 H5。停掉接口和后台用 `停止新后端.bat`。
 
