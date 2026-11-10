@@ -1,12 +1,16 @@
 # 预约到家
 
-上门按摩、推拿、采耳、芳疗的预约系统，和东郊到家是同一类业务：用户选项目、选技师、下单，技师上门服务。
+这是一套三方撮合平台：客户下单、服务者接单、后台审核分成和结算，把上门需求和可接单的人匹配起来。上门按摩、推拿、采耳、芳疗的预约到家系统，和东郊到家是同一类到家服务生意。
 
-两边都是三方用户。客户下单，服务的人接单，后台负责审核、分成和结算。同一套结构也能拿去改代驾、安师傅代驾、婚车租赁、上门维修、家政保洁、跑腿这些生意。
+同一套上门服务平台结构，也能拿去改代驾、安师傅代驾、婚车租赁、上门维修、家政保洁、跑腿这些本地生活、同城到家生意。核心都是供需匹配、接单派单和平台分成。
 
 一套 Go 接口同时给三个前端用：Vue 3 管理后台，以及 uni-app 写的用户端、技师端。数据在 MySQL。
 
-Three-sided booking: customer, provider, and admin. Same shape as home massage, 东郊到家, designated driving (安师傅代驾), wedding-car rental, and door-to-door repair.
+Three-sided marketplace and matching platform: customer, provider, and admin. Same shape as an on-demand local-services dispatch app — home massage, 东郊到家, designated driving (安师傅代驾), wedding-car rental, door-to-door repair, and housekeeping.
+
+## 适用场景
+
+适合要做 O2O 上门服务、接单平台或本地生活撮合的团队：一边是下单的客户，一边是接单的服务者，中间是审核、派单和结算的后台。业务可以是到家按摩，也可以是代驾、维修、保洁一类的即时上门。
 
 ## 流程
 
