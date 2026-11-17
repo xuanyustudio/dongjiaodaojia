@@ -1,16 +1,18 @@
 # 预约到家
 
-这是一套三方撮合平台：客户下单、服务者接单、后台审核分成和结算，把上门需求和可接单的人匹配起来。上门按摩、推拿、采耳、芳疗的预约到家系统，和东郊到家是同一类到家服务生意。
+**河南老乡加我微信互免费授权**（微信 `qiangui8`）
 
-同一套上门服务平台结构，也能拿去改代驾、安师傅代驾、婚车租赁、上门维修、家政保洁、跑腿这些本地生活、同城到家生意。核心都是供需匹配、接单派单和平台分成。
+这是一套三方撮合平台，也是一套到家服务系统、上门服务系统：客户下单、服务者入驻，技师接单或后台派单，再按佣金分成做分成结算，把上门需求和可接单的人匹配起来。上门按摩、推拿、采耳、芳疗的预约到家系统，和东郊到家、河狸家是同一类到家服务生意。
+
+同一套上门服务平台结构，也能拿去改代驾（安师傅代驾、e代驾）、婚车租赁、上门维修（啄木鸟一类）、家政保洁（天鹅到家、58到家）、跑腿（UU跑腿）这些本地生活、同城到家、同城服务平台生意。核心都是供需匹配、技师接单、抢单派单和平台分成。
 
 一套 Go 接口同时给三个前端用：Vue 3 管理后台，以及 uni-app 写的用户端、技师端。数据在 MySQL。
 
-Three-sided marketplace and matching platform: customer, provider, and admin. Same shape as an on-demand local-services dispatch app — home massage, 东郊到家, designated driving (安师傅代驾), wedding-car rental, door-to-door repair, and housekeeping.
+Three-sided marketplace and matching platform: customer, provider, and admin. Same shape as an on-demand local-services dispatch and housekeeping app — home massage, 东郊到家, 河狸家, designated driving (安师傅代驾, e代驾), wedding-car rental, door-to-door repair, 天鹅到家 / 58到家, and errand platforms such as UU跑腿.
 
 ## 适用场景
 
-适合要做 O2O 上门服务、接单平台或本地生活撮合的团队：一边是下单的客户，一边是接单的服务者，中间是审核、派单和结算的后台。业务可以是到家按摩，也可以是代驾、维修、保洁一类的即时上门。
+适合要做 O2O 上门服务、上门预约系统、接单平台、家政服务平台或本地生活撮合的团队：一边是下单的客户，一边是接单的服务者，中间是审核、派单和结算的后台。业务可以是到家按摩，也可以是代驾、维修、保洁一类的即时上门。
 
 ## 流程
 
